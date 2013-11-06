@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+environment/project/com.android.toolchain.gcc.1120379710/OMX/delimiter=;
+environment/project/com.android.toolchain.gcc.1120379710/OMX/operation=append
+environment/project/com.android.toolchain.gcc.1120379710/OMX/value=D\:\\9-tools\\android-ndk-r8b\\platforms\\android-14\\arch-arm\\usr\\include
+environment/project/com.android.toolchain.gcc.1120379710/append=true
+environment/project/com.android.toolchain.gcc.1120379710/appendContributed=true

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Media" />
+
+    <EditText
+        android:id="@+id/filename_edit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="/sdcard/NativeMedia.ts" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/play_pause_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Play" />
+
+        <Button
+            android:id="@+id/rewind_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="rewind" />
+
+        <Button
+            android:id="@+id/finish_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Finish" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <SurfaceView
+            android:id="@+id/surfaceview1"
+            android:layout_width="320px"
+            android:layout_height="240px" />
+    </LinearLayout>
+
+</LinearLayout>
